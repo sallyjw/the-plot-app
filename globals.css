@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'PT Serif Caption', Georgia, serif;
+  background-color: #EDEAE2;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'PT Serif Caption', Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Page background with parchment texture */
+.page-bg {
+  min-height: 100vh;
+  background-color: #EDEAE2;
+  background-image:
+    radial-gradient(ellipse at 15% 10%, rgba(180,168,148,0.28) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 88%, rgba(180,168,148,0.18) 0%, transparent 50%);
+}
+
+/* Hover states */
+.trip-item:hover {
+  opacity: 0.75 !important;
+  transition: opacity 0.15s ease;
+}
+
+.sidebar-item:hover .plus-circle {
+  background-color: #7493B0 !important;
+  color: white !important;
+}
